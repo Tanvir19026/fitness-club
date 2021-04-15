@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+body{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+}
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +31,12 @@
 
 .App-link {
   color: #61dafb;
+}
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
 }
 
 @keyframes App-logo-spin {
