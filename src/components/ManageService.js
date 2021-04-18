@@ -9,7 +9,7 @@ const ManageService = () => {
     
     const deleteProduct=(id)=>{
 
-      fetch(`http://localhost:5000/delete/${id}`,{
+      fetch(`https://floating-headland-81082.herokuapp.com/delete/${id}`,{
         method: 'DELETE',
 
       })
@@ -25,7 +25,7 @@ const ManageService = () => {
     }
 
     useEffect(()=>{
-      const url=`http://localhost:5000/events`
+      const url=`https://floating-headland-81082.herokuapp.com/events`
       fetch(url)
       .then(res=> res.json())
       .then(data=>setproducts(data));

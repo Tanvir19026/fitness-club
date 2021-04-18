@@ -24,7 +24,7 @@ const OrderInfo = () => {
             shipment: data,
             orderTime: new Date(),
           };
-          fetch('http://localhost:5000/addService',{
+          fetch('https://floating-headland-81082.herokuapp.com/addService',{
             method: 'POST',
             headers:{'content-type': 'application/json'},
             body: JSON.stringify(orderDetails)

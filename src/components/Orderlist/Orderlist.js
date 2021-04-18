@@ -6,7 +6,7 @@ const Orderlist = () => {
     console.log(loggedInUser)
     const [orders,setorders]=useState([]);
     useEffect(()=>{
-     fetch('http://localhost:5000/orders')
+     fetch('https://floating-headland-81082.herokuapp.com/orders')
      .then(res=> res.json())
      .then(data => setorders(data))
     },[])

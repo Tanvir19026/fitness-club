@@ -8,7 +8,7 @@ const SpecificOrder = () => {
    
     
     useEffect(()=>{
-     fetch('http://localhost:5000/ordersOne?email=' +loggedInUser.email)
+     fetch('https://floating-headland-81082.herokuapp.com/ordersOne?email=' +loggedInUser.email)
      .then(res=> res.json())
      .then(data => setorders(data))
     },[])

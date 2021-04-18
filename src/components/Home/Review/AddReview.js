@@ -21,7 +21,7 @@ const AddReview = () => {
        
 
      };
-     const url=`http://localhost:5000/addReview`;
+     const url=`https://floating-headland-81082.herokuapp.com/addReview`;
      console.log(eventData);
     fetch(url,{
      method: 'POST',

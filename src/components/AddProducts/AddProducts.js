@@ -18,7 +18,7 @@ const AddProducts = () => {
        price:data.fee,
        email:loggedInUser.email
      };
-     const url=`http://localhost:5000/addEvent`;
+     const url=`https://floating-headland-81082.herokuapp.com/addEvent`;
      console.log(eventData);
     fetch(url,{
      method: 'POST',

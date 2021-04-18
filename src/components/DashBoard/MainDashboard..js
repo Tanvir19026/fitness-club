@@ -10,7 +10,7 @@ const MainDashboard = () => {
           Name:data.Name,
          
         };
-        const url=`http://localhost:5000/adminMonitor`;
+        const url=`https://floating-headland-81082.herokuapp.com/adminMonitor`;
         
        fetch(url,{
         method: 'POST',

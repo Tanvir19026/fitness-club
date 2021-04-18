@@ -5,7 +5,7 @@ import Packages from "../../Packages/Packages";
 const ServicesInfo = () => {
   const [services,setServices]=useState([]);
   useEffect(()=>{
-    fetch('http://localhost:5000/events')
+    fetch('https://floating-headland-81082.herokuapp.com/events')
     .then(res => res.json())
     .then(data => setServices(data))
   })

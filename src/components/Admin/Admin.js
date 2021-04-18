@@ -14,7 +14,7 @@ const Admin = () => {
            Name:data.Name,
           
          };
-         const url=`http://localhost:5000/addAdmin`;
+         const url=`https://floating-headland-81082.herokuapp.com/addAdmin`;
          
         fetch(url,{
          method: 'POST',
