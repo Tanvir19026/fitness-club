@@ -1,13 +1,13 @@
-Website : FitnessClub.
+1.Website : FitnessClub.
 
-This is totally designed by me .
+2.This is totally designed by me .
 
-at home page 6 section given .
+3.at home page 6 section given .
 
-service section will be provided by animation .
+4.service section will be provided by animation .
 
-payment method also included.admin panel and dashboard also included in this assignment.
+5.payment method also included.admin panel and dashboard also included in this assignment.
 
-Review section added .it has client and server side. where most of time i using mongodb.
+6.Review section added .it has client and server side. where most of time i using mongodb.
 
 livesite:https://fitnesscenter-9352e.web.app/
